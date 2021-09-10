@@ -22,6 +22,7 @@ if __name__ == '__main__':
     main()
 
 """
+    python manage.py runserver: サーバーを立ち上げ
     python manage.py (django-admin) migrate app_label migration_name: データベースの状態を現在のモデルやマイグレーションのセットと同期
     python manage.py (django-admin) makemigrations app_label: モデルに検出された変更点に基づいて、新しいマイグレーションを作成する。
     python manage.py createsuperuser: /adminにログインするためのアカウント作成
